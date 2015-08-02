@@ -8,7 +8,7 @@
 			<!doctype html>
 			<html>
 				<head>
-					<link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+					<link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
 					<link rel="stylesheet" href="../css/material-design-iconic-font.min.css">
 					<link rel="stylesheet" href="../css/style.css">
 				    <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
