@@ -44,7 +44,8 @@
 	          			<i class=" prefix zmdi zmdi-key"></i>
 			          	<input id="password" type="password" class="validate" name="passowrd" required>
 			         	<label for="password" data-error="wrong" data-success="right">Contraseña</label>
-      				</div>		
+      				</div>
+					  	
 					<div class="col s12">
 						<div class="input-field col s10 offset-s1">			  
 	          				<select>
@@ -54,23 +55,31 @@
 							<label><i class="zmdi zmdi-file-text zmdi-hc-1-5x" style="color: black;"></i> Tipo de Documento</label>	
 						</div>
 					</div>
+					
 					<div class="input-field col s10 offset-s1">
 	          			<i class="prefix zmdi zmdi-account-box-mail"></i>
 			          	<input id="identificationDocument" type="text" class="validate" name="identificationDocumnet" required>
 			         	<label for="identificationDocument" data-error="wrong" data-success="right">Documento de Identificacón</label>
       				</div> 
-					
+
+					<div class="input-field col s10 offset-s1" id="checkBoxFix1">
+			          	<input type="checkbox" class="filled-in" id="drive-licence" name="drive-licence"  />
+      					<label for="drive-licence">Lincecia de conducir</label>
+						 <input type="checkbox" class="filled-in" id="visa" name="visa"  />
+      					<label for="visa">Visa</label>
+						  <br>
+	        		</div>
 					<div class="input-field col s10 offset-s1">
-	          			<i class="prefix zmdi zmdi-account-box-mail"></i>
-			          	<input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
-      					<label for="filled-in-box">Filled in</label>
-	        		</div> 
-					  	 
+	          			<i class="prefix zmdi zmdi-account-box-phone" for="homePhoneNumber"></i>
+			          	<input id="homePhoneNumber" type="text" class="validate" name="homePhoneNumber">
+			         	<label for="homePhoneNumber" data-error="wrong" data-success="right">Teléfono Residencial  </label>
+      				</div> 
+					
             	<div class="row">
 					<div class="col s10 offset-s2">
      					<button class="btn blue waves-effect waves-light" type="submit">Enviar <i class="zmdi zmdi-mail-send"></i></button>
      					<button class="btn red waves-effect waves-light" type="reset">Limpiar <i class="zmdi zmdi-format-clear-all"></i></button>
-					 </div>
+					</div>
 				</div>
     			</form>
           </div>

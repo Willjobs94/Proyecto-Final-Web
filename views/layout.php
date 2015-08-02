@@ -24,7 +24,7 @@
 				      				<a href="#" data-activates="mobile-nav" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 				  				<ul class="right hide-on-med-and-down">
 								 	<li class="waves-effect"><a href="login.php"><i class="zmdi zmdi-account-circle"><label class="navbar-button"> Iniciar Sesión</label></i></a></li>
-								 	<li class="waves-effect"><a href="register.php"><i class="zmdi zmdi-account-add"><label class="navbar-button"> Registrar</label></i></a></li>
+								 	<li class="waves-effect"><a href="registerCandidate.php"><i class="zmdi zmdi-account-add"><label class="navbar-button"> Registrar</label></i></a></li>
 								</ul>
 						      	<ul class="side-nav" id="mobile-nav">
 						        	<li><a href="login.php"><i class="zmdi zmdi-account-circle"></i>Iniciar Sesión</a></li>
