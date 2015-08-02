@@ -1,3 +1,7 @@
+  .checkbox-centered{
+    margin-top: 30px;
+  }
+  
   label.navbar-button{
 	font-size: 1rem;
     color: #fff;
@@ -9,6 +13,7 @@
     color: #03a9f4;
     display: block;
     padding: 1rem 1rem;
+    align-content: center;
 }
 
 .select-wrapper+label {
@@ -38,6 +43,29 @@
    }
    /* invalid color */
    .input-field input[type=text].invalid {
+     border-bottom: 1px solid red;
+     box-shadow: 0 1px 0 0 red;
+   }
+   /*========================================*/
+   
+      /*============= Type Number =================*/
+   /* label focus color */
+   .input-field input[type=number]:focus + label {
+     color: #03a9f4;
+   }
+
+   /* label underline focus color */
+   .input-field input[type=number]:focus {
+     border-bottom: 1px solid #03a9f4;
+     box-shadow: 0 1px 0 0 #03a9f4;
+   }
+   /* valid color */
+   .input-field input[type=number].valid {
+     border-bottom: 1px solid #03a9f4;
+     box-shadow: 0 1px 0 0 #03a9f4;
+   }
+   /* invalid color */
+   .input-field input[type=number].invalid {
      border-bottom: 1px solid red;
      box-shadow: 0 1px 0 0 red;
    }

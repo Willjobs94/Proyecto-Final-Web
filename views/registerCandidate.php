@@ -45,7 +45,9 @@
 			          	<input id="password" type="password" class="validate" name="passowrd" required>
 			         	<label for="password" data-error="wrong" data-success="right">Contraseña</label>
       				</div>
-					  	
+					  	<div class="row">
+							  </div>
+							  <div class="row">
 					<div class="col s12">
 						<div class="input-field col s10 offset-s1">			  
 	          				<select>
@@ -55,6 +57,7 @@
 							<label><i class="zmdi zmdi-file-text zmdi-hc-1-5x" style="color: black;"></i> Tipo de Documento</label>	
 						</div>
 					</div>
+							  </div>
 					
 					<div class="input-field col s10 offset-s1">
 	          			<i class="prefix zmdi zmdi-account-box-mail"></i>
@@ -62,19 +65,43 @@
 			         	<label for="identificationDocument" data-error="wrong" data-success="right">Documento de Identificacón</label>
       				</div> 
 
-					<div class="input-field col s10 offset-s1" id="checkBoxFix1">
-			          	<input type="checkbox" class="filled-in" id="drive-licence" name="drive-licence"  />
-      					<label for="drive-licence">Lincecia de conducir</label>
-						 <input type="checkbox" class="filled-in" id="visa" name="visa"  />
-      					<label for="visa">Visa</label>
-						  <br>
-	        		</div>
-					<div class="input-field col s10 offset-s1">
-	          			<i class="prefix zmdi zmdi-account-box-phone" for="homePhoneNumber"></i>
-			          	<input id="homePhoneNumber" type="text" class="validate" name="homePhoneNumber">
-			         	<label for="homePhoneNumber" data-error="wrong" data-success="right">Teléfono Residencial  </label>
-      				</div> 
 					
+					<div class="row"></div>
+					<div class="row">
+						<div class="input-field col s6 offset-s1">
+		          			<i class="prefix zmdi zmdi-account-box-phone" for="homePhoneNumber"></i>
+				          	<input id="homePhoneNumber" type="number" class="validate" name="homePhoneNumber" required>
+				         	<label for="homePhoneNumber" data-error="wrong" data-success="right">Teléfono Residencial*</label>
+						</div>
+						<div class="col s4 checkbox-centered">
+						 	<input type="checkbox" class="filled-in" id="showHomePhoneNumber" name="showHomePhoneNumber"  />
+      						<label for="showHomePhoneNumber">Mostrar</label>
+      					</div> 
+					</div>
+					<div class="row">
+						<div class="input-field col s6 offset-s1">
+		          			<i class="prefix zmdi zmdi-account-box-phone" for="homePhoneNumber"></i>
+				          	<input id="homePhoneNumber" type="number" class="validate" name="homePhoneNumber" >
+				         	<label for="homePhoneNumber" data-error="wrong" data-success="right">Celular</label>
+						</div>
+						<div class="col s4 checkbox-centered">
+						 	<input type="checkbox" class="filled-in" id="showPhoneNumber" name="showPhoneNumber"  />
+      						<label for="showPhoneNumber">Mostrar</label>
+      					</div> 
+					</div>
+					
+					  <div class="row">
+						 <div class="input-field col s7 offset-s1">
+			          		<input type="checkbox" class="filled-in" id="drive-licence" name="drive-licence" />
+      						<label for="drive-licence">Lincecia de conducir</label>
+						 </div>
+						 <div class="col s4 checkbox-centered">
+						 	<input type="checkbox" class="filled-in" id="visa" name="visa"  />
+      						<label for="visa">Visa</label>
+						 </div>
+	        			</div>
+					  </div>
+					  <div class="row"></div>
             	<div class="row">
 					<div class="col s10 offset-s2">
      					<button class="btn blue waves-effect waves-light" type="submit">Enviar <i class="zmdi zmdi-mail-send"></i></button>
