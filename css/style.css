@@ -4,12 +4,22 @@
     vertical-align: top;
   }
 
-/*
-#03a9f4
+.dropdown-content li>span {
+    font-size: 1rem;
+    color: #03a9f4;
+    display: block;
+    padding: 1rem 1rem;
+}
 
-*/
-
-   
+.select-wrapper+label {
+    position: absolute;
+    top: -21px;
+    font-size: 1rem;
+}
+ 
+ .zmdi-hc-1-5x {
+    font-size: 1.5em;
+}
    /*============= Type Text =================*/
    /* label focus color */
    .input-field input[type=text]:focus + label {
@@ -33,7 +43,7 @@
    }
    /*========================================*/
    
-      /*============= Type Text =================*/
+      /*============= Type Password =================*/
    /* label focus color */
    .input-field input[type=password]:focus + label {
      color: #03a9f4;
@@ -51,6 +61,29 @@
    }
    /* invalid color */
    .input-field input[type=password].invalid {
+     border-bottom: 1px solid red;
+     box-shadow: 0 1px 0 0 red;
+   }
+   /*========================================*/
+   
+     /*============= Type email =================*/
+   /* label focus color */
+   .input-field input[type=email]:focus + label {
+     color: #03a9f4;
+   }
+
+   /* label underline focus color */
+   .input-field input[type=email]:focus {
+     border-bottom: 1px solid #03a9f4;
+     box-shadow: 0 1px 0 0 #03a9f4;
+   }
+   /* valid color */
+   .input-field input[type=email].valid {
+     border-bottom: 1px solid #03a9f4;
+     box-shadow: 0 1px 0 0 #03a9f4;
+   }
+   /* invalid color */
+   .input-field input[type=email].invalid {
      border-bottom: 1px solid red;
      box-shadow: 0 1px 0 0 red;
    }

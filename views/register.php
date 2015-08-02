@@ -17,7 +17,7 @@
 					</div>
 					<div class="input-field col s10 offset-s1">
          				<i class="prefix zmdi zmdi-account-circle"></i>
-          				<input id="middleNama" type="text" class="validate" name="middleName">
+          				<input id="middleName" type="text" class="validate" name="middleName">
           				<label for="middleName" data-error="wrong" data-success="right">Segundo Nombre</label>
 					</div>
 					<div class="input-field col s10 offset-s1">
@@ -44,17 +44,28 @@
 	          			<i class=" prefix zmdi zmdi-key"></i>
 			          	<input id="password" type="password" class="validate" name="passowrd" required>
 			         	<label for="password" data-error="wrong" data-success="right">Contraseña</label>
-      				</div>
-					  <div class="input-field col s10 offset-s1">
-						  
-          				<select>
-					      <option value="1">Cédula</option>
-					      <option value="2">Pasaporte</option>
-					    </select>
-						 <label>Tipo de Documento</label>
+      				</div>		
+					<div class="col s12">
+						<div class="input-field col s10 offset-s1">			  
+	          				<select>
+						      <option value="cedula">Cédula</option>
+						      <option value="passport">Pasaporte</option>
+						    </select>
+							<label><i class="zmdi zmdi-file-text zmdi-hc-1-5x" style="color: black;"></i> Tipo de Documento</label>	
+						</div>
 					</div>
-					   	<br/>
-						   
+					<div class="input-field col s10 offset-s1">
+	          			<i class="prefix zmdi zmdi-account-box-mail"></i>
+			          	<input id="identificationDocument" type="text" class="validate" name="identificationDocumnet" required>
+			         	<label for="identificationDocument" data-error="wrong" data-success="right">Documento de Identificacón</label>
+      				</div> 
+					
+					<div class="input-field col s10 offset-s1">
+	          			<i class="prefix zmdi zmdi-account-box-mail"></i>
+			          	<input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+      					<label for="filled-in-box">Filled in</label>
+	        		</div> 
+					  	 
             	<div class="row">
 					<div class="col s10 offset-s2">
      					<button class="btn blue waves-effect waves-light" type="submit">Enviar <i class="zmdi zmdi-mail-send"></i></button>
