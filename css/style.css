@@ -1,0 +1,61 @@
+  label.navbar-button{
+	font-size: 1rem;
+    color: #fff;
+    vertical-align: top;
+  }
+
+/*
+#03a9f4
+
+*/
+
+   
+   /*============= Type Text =================*/
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #03a9f4;
+   }
+
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #03a9f4;
+     box-shadow: 0 1px 0 0 #03a9f4;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #03a9f4;
+     box-shadow: 0 1px 0 0 #03a9f4;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid red;
+     box-shadow: 0 1px 0 0 red;
+   }
+   /*========================================*/
+   
+      /*============= Type Text =================*/
+   /* label focus color */
+   .input-field input[type=password]:focus + label {
+     color: #03a9f4;
+   }
+
+   /* label underline focus color */
+   .input-field input[type=password]:focus {
+     border-bottom: 1px solid #03a9f4;
+     box-shadow: 0 1px 0 0 #03a9f4;
+   }
+   /* valid color */
+   .input-field input[type=password].valid {
+     border-bottom: 1px solid #03a9f4;
+     box-shadow: 0 1px 0 0 #03a9f4;
+   }
+   /* invalid color */
+   .input-field input[type=password].invalid {
+     border-bottom: 1px solid red;
+     box-shadow: 0 1px 0 0 red;
+   }
+   /*========================================*/
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #03a9f4;
+   }
