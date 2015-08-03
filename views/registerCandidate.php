@@ -5,7 +5,6 @@
       <div class="row">
         <div class="col s6 m6 offset-m3">
           <div class="card">
-            
 				<center>
 					<label class="card-title grey-text text-darken-4">Registrar Candidato</label>
 				</center>	
@@ -127,22 +126,67 @@
 							 </div>
 	        			</div>
 						<div class="row">
-						<div class="input-field col s6 offset-s1">
-		          			<i class="prefix zmdi zmdi-cake"></i>
-				          	<input id="birthday" type="date" class="datepicker" name="fecha_nac" >
-				         	<label for="birthday" data-error="wrong" data-success="right">Fehca de Nacimiento</label>
+							<div class="input-field col s6 offset-s1">
+			          			<i class="prefix zmdi zmdi-cake"></i>
+					          	<input id="birthday" type="date" class="datepicker" name="fecha_nac" >
+					         	<label for="birthday" data-error="wrong" data-success="right">Fehca de Nacimiento</label>
+							</div>
+							<div class="col s4 checkbox-centered">
+							 	<input type="checkbox" class="filled-in" id="showBirthday" name="mostrar_fecha_nac"  />
+	      						<label for="showBirthday">Mostrar</label>
+	      					</div> 
 						</div>
-						<div class="col s4 checkbox-centered">
-						 	<input type="checkbox" class="filled-in" id="showBirthday" name="mostrar_fecha_nac"  />
-      						<label for="showBirthday">Mostrar</label>
-      					</div> 
-					</div>
+						<div class="row">
+							<div class="col s12">
+								<div class="input-field col s10 offset-s1">			  
+			          				<select name="estado_civil">
+									      <option value="1">Soltero</option>
+									      <option value="2">Casado</option>
+										  <option value="3">Divorciado</option>
+									      <option value="4">Union Libre</option>
+								   	</select>
+									<label><i class="zmdi zmdi-accounts-outline zmdi-hc-1-5x" style="color: black;"></i> Estdo Civil</label>	
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12">
+								<div class="input-field col s10 offset-s1">			  
+			          				<select name="nivel_studio">
+									      <option value="1">Término</option>
+									      <option value="2">Técnologo Superior</option>
+										  <option value="3">Grado</option>
+									      <option value="4">Post Grado</option>
+									      <option value="5">Maestría</option>
+									      <option value="6">Doctorado</option>
+								   	</select>
+									<label><i class="zmdi zmdi-graduation-cap zmdi-hc-1-5x" style="color: black;"></i> Nivel de Estudio</label>	
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12">
+								<div class="input-field col s10 offset-s1">			  
+			          				<select name="situacio_laboral">
+									      <option value="1">Desmpleado</option>
+									      <option value="2">Empleado</option>
+										  <option value="3">Independiente</option>
+								   	</select>
+									<label><i class="zmdi zmdi-developer-board zmdi-hc-1-5x" style="color: black;"></i> Nivel de Estudio</label>	
+								</div>
+							</div>
+						</div>
+						<div class="row"></div>
+						<div class="row"></div>
+						<div class="row"></div>
+						<div class="row"></div>
+						
             			<div class="row">
 							<div class="col s10 offset-s2">
-     						<button class="btn blue waves-effect waves-light" type="submit">Enviar <i class="zmdi zmdi-mail-send"></i></button>
-     						<button class="btn red waves-effect waves-light" type="reset">Limpiar <i class="zmdi zmdi-format-clear-all"></i></button>
-						</div>
-					</div>
+     							<button class="btn blue waves-effect waves-light" type="submit">Enviar <i class="zmdi zmdi-mail-send"></i></button>
+     							<button class="btn red waves-effect waves-light" type="reset">Limpiar <i class="zmdi zmdi-format-clear-all"></i></button>
+							</div>
+						</div>	
     			</form>
           </div>
         </div>
