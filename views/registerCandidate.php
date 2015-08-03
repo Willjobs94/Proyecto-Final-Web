@@ -206,7 +206,7 @@
 							<center>
 							<label><h5>Conocimientos de Informática</h5></label>
 							</center>
-							 <div class="input-field col s4 offset-s1">
+							 <div class="input-field col s4 ">
 								 
 				          		<input type="checkbox" class="filled-in" id="internet" name="internet" value="si"/>
 	      						<label for="internet">Internet</label>
@@ -220,12 +220,92 @@
 	      						<label for="excel">Excel</label>
 								<input type="checkbox" class="filled-in" id="lotus" name="lotus" value="si"/>
 	      						<label for="lotus">Lotus</label>
+								<input type="checkbox" class="filled-in" id="java" name="java" value="si"/>
+	      						<label for="java">Java</label>
+								<input type="checkbox" class="filled-in" id="it2" name="it2" value="si"/>
+	      						<label for="it2">IT2</label>
+								<input type="checkbox" class="filled-in" id="javascript" name="javascript" value="si"/>
+	      						<label for="javascript">JavaScript</label>
+								<input type="checkbox" class="filled-in" id="ccda" name="ccda" value="si"/>
+	      						<label for="ccda">CCDA</label>
+								<input type="checkbox" class="filled-in" id="java_swing" name="java_swing" value="si"/>
+	      						<label for="java_swing">Java Swing</label>
+								<input type="checkbox" class="filled-in" id="security_cisco" name="security_cisco" value="si"/>
+	      						<label for="security_cisco">Security Cisco</label>
+								<input type="checkbox" class="filled-in" id="python" name="python" value="si"/>
+	      						<label for="python">Python</label>
+								<input type="checkbox" class="filled-in" id="photoshop" name="photoshop" value="si"/>
+	      						<label for="photoshop">Photoshop</label>
+								<input type="checkbox" class="filled-in" id="eclipse" name="eclipse" value="si"/>
+	      						<label for="eclipse">Eclipse</label>
+								<input type="checkbox" class="filled-in" id="mysql" name="mysql" value="si"/>
+	      						<label for="mysql">MySQL</label>
 							 </div>
 							 <div class="col s4 checkbox-centered">
 							 	<input type="checkbox" class="filled-in" id="power_point" name="power_point" value="si" />
 	      						<label for="power_point">Power Point</label>
-								<input type="checkbox" class="filled-in" id="lotus" name="lotus" value="si"/>
-	      						<label for="lotus">Lotus</label>
+								<input type="checkbox" class="filled-in" id="autocad" name="autocad" value="si"/>
+	      						<label for="autocad">AutoCAD</label>
+								<input type="checkbox" class="filled-in" id="solidworks" name="solidworks" value="si"/>
+	      						<label for="solidworks">SolidWorks</label>
+								<input type="checkbox" class="filled-in" id="ccna" name="ccna" value="si" />
+	      						<label for="ccna">CCNA</label>
+								<input type="checkbox" class="filled-in" id="pro_engineer" name="pro_engineer" value="si"/>
+	      						<label for="pro_engineer">ProEngineer</label>
+								<input type="checkbox" class="filled-in" id="ccnp" name="ccnp" value="si"/>
+	      						<label for="ccnp">CCNP</label>
+								<input type="checkbox" class="filled-in" id="php" name="php" value="si"/>
+	      						<label for="php">PHP</label>
+								<input type="checkbox" class="filled-in" id="security_sun_microsystems" name="security_sun_microsystems" value="si"/>
+	      						<label for="security_sun_microsystems">Security Sun Microsystems</label>
+								<input type="checkbox" class="filled-in" id="c_sharp_net" name="c_sharp_net" value="si"/>
+	      						<label for="c_sharp_net"> C#.NET</label>
+								<input type="checkbox" class="filled-in" id="wireless" name="wireless" value="si"/>
+	      						<label for="wireless">Wireless</label>
+								<input type="checkbox" class="filled-in" id="jsp_servlets" name="jsp_servlets" value="si"/>
+	      						<label for="jsp_servlets">JSP Servlets</label>
+								
+								<input type="checkbox" class="filled-in" id="dreamweaver" name="dreamweaver" value="si"/>
+	      						<label for="dreamweaver">Dreamweaver</label>
+								<input type="checkbox" class="filled-in" id="visual_estudio_2008" name="visual_estudio_2008" value="si"/>
+	      						<label for="visual_estudio_2008">Visual Estudio 2008</label>
+								<input type="checkbox" class="filled-in" id="desktop_publishing" name="desktop_publishing" value="si"/>
+	      						<label for="desktop_publishing"> Desktop Publishing</label>
+								
+							 </div>
+							 <div class="col s4 checkbox-centered">
+							 	<input type="checkbox" class="filled-in" id="mastercam" name="mastercam" value="si" />
+	      						<label for="mastercam">MasterCam</label>
+								<input type="checkbox" class="filled-in" id="fvdc" name="fvdc" value="si"/>
+	      						<label for="fvdc">FVDC</label>
+								<input type="checkbox" class="filled-in" id="plc" name="plc" value="si"/>
+	      						<label for="plc">PLC</label>
+								<input type="checkbox" class="filled-in" id="it1" name="it1" value="si" />
+	      						<label for="it1">ITL</label>
+								 <input type="checkbox" class="filled-in" id="flash" name="flash" value="si"/>
+	      						<label for="flash">Flash</label>
+								<input type="checkbox" class="filled-in" id="visual_basic" name="visual_basic" value="si"/>
+	      						<label for="visual_basic">Visual Basic</label>
+								<input type="checkbox" class="filled-in" id="c" name="c" value="si"/>
+	      						<label for="c">C</label>
+								<input type="checkbox" class="filled-in" id="ilustrator" name="ilustrator" value="si"/>
+	      						<label for="ilustrator">Ilustrator</label>
+								<input type="checkbox" class="filled-in" id="c++" name="c++" value="si"/>
+	      						<label for="c++">C++</label>
+								<input type="checkbox" class="filled-in" id="animacion" name="animacion" value="si"/>
+	      						<label for="animacion">Animación</label>
+								<input type="checkbox" class="filled-in" id="oracle" name="oracle" value="si"/>
+	      						<label for="oracle">Oracle</label>
+								<input type="checkbox" class="filled-in" id="css" name="css" value="si"/>
+	      						<label for="css">CSS</label>
+								<input type="checkbox" class="filled-in" id="ms_sql_server" name="ms_sql_server" value="si"/>
+	      						<label for="ms_sql_server">Security Cisco</label>
+								<input type="checkbox" class="filled-in" id="html" name="html" value="si"/>
+	      						<label for="html">HTML</label>
+								<input type="checkbox" class="filled-in" id="dhtml" name="dhtml" value="si"/>
+	      						<label for="dhtml"> DHTML</label>
+								<input type="checkbox" class="filled-in" id="otros" name="otros" value="si"/>
+	      						<label for="otros">Otros</label>
 							 </div>
 	        			</div>
 						<div class="row"></div>
