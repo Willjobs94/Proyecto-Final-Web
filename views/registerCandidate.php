@@ -49,8 +49,8 @@
 						<div class="col s12">
 							<div class="input-field col s10 offset-s1">			  
 		          				<select name="tipo_documento" id="documentType">
-							      <option value="1">Cédula</option>
-							      <option value="2">Pasaporte</option>
+							      <option value="cedula">Cédula</option>
+							      <option value="pasaporte">Pasaporte</option>
 							   	</select>
 								<label for="documentType"><i class="zmdi zmdi-file-text zmdi-hc-1-5x" style="color: black;"></i> Tipo de Documento</label>	
 							</div>
@@ -70,7 +70,7 @@
 				         	<label for="homePhoneNumber" data-error="wrong" data-success="right">Teléfono Residencial*</label>
 						</div>
 						<div class="col s4 checkbox-centered">
-						 	<input type="checkbox" class="filled-in" id="showHomePhoneNumber" name="mostar_telefono"  />
+						 	<input type="checkbox" class="filled-in" id="showHomePhoneNumber" name="mostar_telefono" value="1" />
       						<label for="showHomePhoneNumber">Mostrar</label>
       					</div> 
 					</div>
@@ -81,7 +81,7 @@
 				         	<label for="homePhoneNumber" data-error="wrong" data-success="right">Celular</label>
 						</div>
 						<div class="col s4 checkbox-centered">
-						 	<input type="checkbox" class="filled-in" id="showPhoneNumber" name="mostrar_celular"  />
+						 	<input type="checkbox" class="filled-in" id="showPhoneNumber" name="mostrar_celular" value="1" />
       						<label for="showPhoneNumber">Mostrar</label>
       					</div> 
 					</div>
@@ -89,8 +89,8 @@
 							<div class="col s12">
 								<div class="input-field col s10 offset-s1">			  
 			          				<select name="sexo" required>
-								      <option value="1">Masculino</option>
-								      <option value="2">Femenino</option>
+								      <option value="masculino">Masculino</option>
+								      <option value="femenino">Femenino</option>
 								   	</select>
 									<label><i class="zmdi zmdi-male-female zmdi-hc-1-5x" style="color: black;"></i> Sexo*</label>	
 								</div>
@@ -113,15 +113,15 @@
 	      				</div>  
 						<div class="row">
 							 <div class="input-field col s7 offset-s1">
-				          		<input type="checkbox" class="filled-in" id="drive-licence" name="licencia_conducir" />
+				          		<input type="checkbox" class="filled-in" id="drive-licence" name="licencia_conducir" value="si"/>
 	      						<label for="drive-licence">Lincecia de conducir</label>
-								<input type="checkbox" class="filled-in" id="workOnAnotherCity" name="disponibilidad_trap_otra_ciudad"  />
+								<input type="checkbox" class="filled-in" id="workOnAnotherCity" name="disponibilidad_trap_otra_ciudad"  value="si"/>
 	      						<label for="workOnAnotherCity">Disponibilidad para trabajar en otra ciudad</label>
-								<input type="checkbox" class="filled-in" id="workOnAnotherCountry" name="disponibilidad_trap_otro_pais" />
+								<input type="checkbox" class="filled-in" id="workOnAnotherCountry" name="disponibilidad_trap_otro_pais" value="si" />
 	      						<label for="workOnAnotherCountry">Disponibilidad para trabajar en otro país</label>
 							 </div>
 							 <div class="col s4 checkbox-centered">
-							 	<input type="checkbox" class="filled-in" id="visa" name="visa"  />
+							 	<input type="checkbox" class="filled-in" id="visa" name="visa" value="si" />
 	      						<label for="visa">Visa</label>
 							 </div>
 	        			</div>
@@ -140,10 +140,10 @@
 							<div class="col s12">
 								<div class="input-field col s10 offset-s1">			  
 			          				<select name="estado_civil">
-									      <option value="1">Soltero</option>
-									      <option value="2">Casado</option>
-										  <option value="3">Divorciado</option>
-									      <option value="4">Union Libre</option>
+									      <option value="soltero">Soltero</option>
+									      <option value="casado">Casado</option>
+										  <option value="divorciado">Divorciado</option>
+									      <option value="union_libre">Union Libre</option>
 								   	</select>
 									<label><i class="zmdi zmdi-accounts-outline zmdi-hc-1-5x" style="color: black;"></i> Estdo Civil</label>	
 								</div>
@@ -152,30 +152,82 @@
 						<div class="row">
 							<div class="col s12">
 								<div class="input-field col s10 offset-s1">			  
-			          				<select name="nivel_studio">
-									      <option value="1">Término</option>
-									      <option value="2">Técnologo Superior</option>
-										  <option value="3">Grado</option>
-									      <option value="4">Post Grado</option>
-									      <option value="5">Maestría</option>
-									      <option value="6">Doctorado</option>
+			          				<select name="nivel_studio" required>
+									      <option value="termino">Término</option>
+									      <option value="tec_superior">Tecnólogo Superior</option>
+										  <option value="grado">Grado</option>
+									      <option value="postgrado">PostGrado</option>
+									      <option value="maestria">Maestría</option>
+									      <option value="doctorado">Doctorado</option>
 								   	</select>
-									<label><i class="zmdi zmdi-graduation-cap zmdi-hc-1-5x" style="color: black;"></i> Nivel de Estudio</label>	
+									<label><i class="zmdi zmdi-graduation-cap zmdi-hc-1-5x" style="color: black;"></i> Nivel de Estudio*</label>	
 								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col s12">
 								<div class="input-field col s10 offset-s1">			  
-			          				<select name="situacio_laboral">
-									      <option value="1">Desmpleado</option>
-									      <option value="2">Empleado</option>
-										  <option value="3">Independiente</option>
+			          				<select name="situacion_laboral">
+									      <option value="desempleado">Desmpleado</option>
+									      <option value="empleado">Empleado</option>
+										  <option value="independiente">Independiente</option>
 								   	</select>
-									<label><i class="zmdi zmdi-developer-board zmdi-hc-1-5x" style="color: black;"></i> Nivel de Estudio</label>	
+									<label><i class="zmdi zmdi-developer-board zmdi-hc-1-5x" style="color: black;"></i> Situación Laboral</label>	
 								</div>
 							</div>
 						</div>
+						<div class="row">
+							<div class="col s12">
+								<div class="input-field col s10 offset-s1">			  
+			          				<select name="exp_laboral">
+									      <option value="ninguna">Ninguna</option>
+									      <option value="menos3_meses">Menos de 3 meses</option>
+										  <option value="3_12_meses">3 a 12 Meses</option>
+										  <option value="mas_1_ano">Más de 1 año</option>
+								   	</select>
+									<label><i class="zmdi zmdi-developer-board zmdi-hc-1-5x" style="color: black;"></i> Experiencia Laboral</label>	
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12">
+								<div class="input-field col s10 offset-s1">			  
+			          				<select name="contrato_deseado">
+									      <option value="fijo">Fijo</option>
+									      <option value="temporal">Temporal</option>
+										  <option value="pasantia">Pasantía</option>
+										  <option value="freelance">Freelancer</option>
+								   	</select>
+									<label><i class="zmdi zmdi zmdi-file zmdi-hc-1-5x" style="color: black;"></i> Contrato Deseado</label>	
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<center>
+							<label><h5>Conocimientos de Informática</h5></label>
+							</center>
+							 <div class="input-field col s4 offset-s1">
+								 
+				          		<input type="checkbox" class="filled-in" id="internet" name="internet" value="si"/>
+	      						<label for="internet">Internet</label>
+								<input type="checkbox" class="filled-in" id="access" name="acces" value="si"/>
+	      						<label for="access">Access</label>
+								<input type="checkbox" class="filled-in" id="word" name="word" value="si"/>
+	      						<label for="word">  Word</label>
+								<input type="checkbox" class="filled-in" id="publisher" name="publisher" value="si"/>
+	      						<label for="publisher">Publisher</label>
+								<input type="checkbox" class="filled-in" id="excel" name="excel" value="si"/>
+	      						<label for="excel">Excel</label>
+								<input type="checkbox" class="filled-in" id="lotus" name="lotus" value="si"/>
+	      						<label for="lotus">Lotus</label>
+							 </div>
+							 <div class="col s4 checkbox-centered">
+							 	<input type="checkbox" class="filled-in" id="power_point" name="power_point" value="si" />
+	      						<label for="power_point">Power Point</label>
+								<input type="checkbox" class="filled-in" id="lotus" name="lotus" value="si"/>
+	      						<label for="lotus">Lotus</label>
+							 </div>
+	        			</div>
 						<div class="row"></div>
 						<div class="row"></div>
 						<div class="row"></div>
