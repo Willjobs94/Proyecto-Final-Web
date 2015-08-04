@@ -1,6 +1,5 @@
 <?php 
-	include("layout.php");
-	
+	include("layout.php");	
 ?>
       <div class="row">
         <div class="col s6 m6 offset-m3">
@@ -308,6 +307,42 @@
 	      						<label for="otros">Otros</label>
 							 </div>
 	        			</div>
+						<div class="row">
+							<div class="col s12">
+								<div class="input-field col s10 offset-s1">			  
+			          				<select name="nivel_ingles" required>
+									      <option value="ninguno">Ninguno</option>
+									      <option value="basico">Básico</option>
+										  <option value="intermedio">Intermedio</option>
+										  <option value="avanzado">Avanzado</option>
+										  <option value="nativo">Nativo</option>
+								   	</select>
+									<label><i class="zmdi zmdi zmdi-file zmdi-hc-1-5x" style="color: black;"></i> Nivel Ingles*</label>	
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s6 offset-s1">
+			          			<i class="prefix zmdi zmdi-account-box-phone" for="income"></i>
+					          	<input id="income" type="number" class="validate" name="telefono"  length="15">
+					         	<label for="income" data-error="wrong" data-success="right">Sueldo Actual</label>
+							</div>
+							<div class="col s4 checkbox-centered">
+							 	<input type="checkbox" class="filled-in" id="showIncome" name="no_visible_sueldo_actual" value="1" />
+	      						<label for="showIncome">Mostrar</label>
+	      					</div> 
+						</div>
+						<div class="row">
+							<div class="input-field col s6 offset-s1">
+			          			<i class="prefix zmdi zmdi-account-box-phone" for="incomeWish"></i>
+					          	<input id="incomeWish" type="number" class="validate" name="telefono"  length="15">
+					         	<label for="incomeWish" data-error="wrong" data-success="right">Sueldo Deseado</label>
+							</div>
+							<div class="col s4 checkbox-centered">
+							 	<input type="checkbox" class="filled-in" id="showIncomeWish" name="no_visible_sueldo_deseado" value="1" />
+	      						<label for="showIncomeWish">Mostrar</label>
+	      					</div> 
+						</div>
 						<div class="row"></div>
 						<div class="row"></div>
 						<div class="row"></div>

@@ -23,12 +23,22 @@
 				      				<a href="index.php" class="brand-logo waves-effect">Portal de Empleo</a>
 				      				<a href="#" data-activates="mobile-nav" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 				  				<ul class="right hide-on-med-and-down">
-								 	<li class="waves-effect"><a href="login.php"><i class="zmdi zmdi-account-circle"><label class="navbar-button"> Iniciar Sesión</label></i></a></li>
-								 	<li class="waves-effect"><a href="registerCandidate.php"><i class="zmdi zmdi-account-add"><label class="navbar-button"> Registrar</label></i></a></li>
+								 	<li class="waves-effect"><a href="/views/login.php"><i class="zmdi zmdi-account-circle"><label class="navbar-button"> Iniciar Sesión</label></i></a></li>
+								 	<li class="waves-effect">
+										 <a href="/views/registerCandidate.php"><i class="zmdi zmdi-plus-circle-o"><label class="navbar-button"> Registrar</label></i></a>
+										 <div class="input-field col s10 offset-s1">			  
+		          				<select name="tipo_documento" id="documentType">
+							      <option value="cedula">Cédula</option>
+							      <option value="pasaporte">Pasaporte</option>
+							   	</select>
+								<label for="documentType"><i class="zmdi zmdi-file-text zmdi-hc-1-5x" style="color: black;"></i> Tipo de Documento</label>	
+							</div>
+									 </li>
+										 
 								</ul>
 						      	<ul class="side-nav" id="mobile-nav">
-						        	<li><a href="login.php"><i class="zmdi zmdi-account-circle"></i>Iniciar Sesión</a></li>
-						        	<li><a href="register.php"><i class="zmdi zmdi-account-circle"></i> Registrar</a></li>
+						        	<li><a href="/views/login.php"><i class="zmdi zmdi-account-circle"></i>Iniciar Sesi&oacute;n</a></li>
+						        	<li><a href="/views/registerCandidate.php"><i class="zmdi zmdi-account-circle"></i> Registrar</a></li>
 						      	</ul>
 			    			</div>
 			  			</nav>
